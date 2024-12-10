@@ -53,7 +53,7 @@ async function registerFormSubmitHandler(e) {
   }
 
   if (password !== repeatPassword) {
-    return alert("Passwords don't  match");
+    return alert("Passwords don't match");
   }
 
   try {
